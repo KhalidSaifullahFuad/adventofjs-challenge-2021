@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: #cd92fa;
+  border-radius: 100vw;
+  margin-block: 12.8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6b00f5;
+  border: 4px solid #cd92fa;
+  border-radius: 100vw;
+}
+
 body {
   background: url('images/bg__left.svg') left 10% no-repeat,
     url('images/bg__top-right.svg') right top no-repeat,
