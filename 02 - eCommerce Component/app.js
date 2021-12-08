@@ -58,7 +58,6 @@ window.addEventListener("click", (e)=>{
     }else if(btnClass == 'increase'){
         let count = btn.parentElement.children[1];
         count.innerText = parseInt(count.innerText) + 1;
-        // btn.parentElement.parentElement.querySelector('.quantity').innerText = count.innerText;
         btn.closest("li").querySelector('.quantity').innerText = count.innerText;
     }else if(btnClass == 'decrease'){
         let count = btn.parentElement.children[1];
@@ -68,5 +67,4 @@ window.addEventListener("click", (e)=>{
         }
         console.log("decrease");
     }
-    
 });
