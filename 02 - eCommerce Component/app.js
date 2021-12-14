@@ -55,16 +55,14 @@ window.addEventListener("click", (e)=>{
         btn.classList.replace("in-cart","add");
         btn.firstChild.remove();
         btn.innerText = "Add to Cart";
-    }else if(btnClass == 'increase'){
+    }else if(btnClass == 'increase' || btnClass == 'decrease'){
         let count = btn.parentElement.children[1];
-        count.innerText = parseInt(count.innerText) + 1;
-        btn.closest("li").querySelector('.quantity').innerText = count.innerText;
-    }else if(btnClass == 'decrease'){
-        let count = btn.parentElement.children[1];
+        count.innerText = parseInt(count.innerText) + (btnClass=='increase' ? 1 : -1);
         if(count.innerText > 0){
-            count.innerText = parseInt(count.innerText) - 1;
             btn.closest("li").querySelector('.quantity').innerText = count.innerText;
+            btn.closest("li").querySelector('.subtotal').innerText = `$${(Number(btn.closest("li").querySelector(".price").innerText.replace("$","")*count.innerText)).toFixed(2)}`;
+        }else {
+            btn.closest("li").remove();
         }
-        console.log("decrease");
     }
 });
