@@ -13,8 +13,6 @@ You can use as many (or as few) tools, libraries, and frameworks as you'd like. 
 
 # Need some support on this challenge?
 
-Upgrade to the **Solution tier.** You'll get a video explanation, from Amy.
-
 Join the [Learn Build Teach](http://learnbuildteach.com) Discord community. We have a separate channel set up specifically for the Advent of CSS.
 
 # Taking your Project to the Next Level
@@ -27,7 +25,6 @@ Join the [Learn Build Teach](http://learnbuildteach.com) Discord community. We h
 - Can I use libraries / frameworks on these projects?
   - Of course! We're providing the design files, but you can use whatever tools and frameworks you'd like.
 - Oh no! I'm stuck!
-  - Consider [purchasing the Solutions](http://adventofcss.com) (if you haven't already). You'll get access to a video, where James explains how to write all the code.
   - Check out the [Learn Build Teach Discord.](http://learnbuildteach.com) We have a specific channel set up, just for the Advent of JavaScript.
 - Can I use this project in my portfolio?
   - Sure! But, be honest about the work that **you** did
